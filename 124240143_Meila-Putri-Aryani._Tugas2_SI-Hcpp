@@ -174,7 +174,7 @@ int main()
             cin >> buku.year;
             cin.ignore();
             root = tambahBuku(root, buku);
-            tambahTumpukan(buku, "add");
+            tambahTumpukan(buku, "tambah");
         }
         else if (pilihan == 2)
         {
